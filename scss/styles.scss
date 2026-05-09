@@ -1,0 +1,21 @@
+@import 'variables';
+
+body {
+    font-family: $font-main;
+    color: $main-color;
+    line-height: 1.6;
+    background-color: $bg-white;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+main {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+// Імпорт модулів
+@import 'header';
+@import 'posts-grid';
+@import 'load-more';

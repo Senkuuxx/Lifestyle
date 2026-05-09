@@ -1,0 +1,40 @@
+.posts-grid {
+    display: flex;      
+    flex-wrap: wrap;    
+    justify-content: space-between; 
+}
+
+.post {
+    width: calc(50% - 30px); 
+    margin-bottom: 80px;    
+    display: flex;          
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .category {
+        color: $accent-color;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-family: $font-secondary;
+        font-size: 28px;
+        color: $title-color;
+        margin-bottom: 25px;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: $font-secondary;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

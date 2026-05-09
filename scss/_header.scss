@@ -1,0 +1,23 @@
+header {
+    margin: 70px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 80px;
+
+    li a {
+        font-family: $font-secondary;
+        text-decoration: none;
+        color: $main-color;
+        font-size: 14px;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}
